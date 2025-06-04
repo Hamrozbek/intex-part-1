@@ -14,7 +14,9 @@ elForm.addEventListener("submit", function (e) {
   `
 
     let isUser = passwordsSaved ? passwordsSaved.some(item => item.username == data.username && item.password == data.password) : passwords.some(item => item.username == data.username && item.password == data.password)
+    let user = passwordsSaved ? passwordsSaved.find(item => item.username == data.username && item.password == data.password) : passwords.find(item => item.username == data.username && item.password == data.password)
 
+    localStorage.setItem("user", JSON.stringify(user))
     setTimeout(() => {
         elForm.lastElementChild.previousElementSibling.innerHTML = 'Войти'
         setTimeout(() => {
