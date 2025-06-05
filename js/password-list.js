@@ -9,7 +9,9 @@ let passwords = [
     {
         id: 2,
         username: "ulug'bek",
-        password: "123"
+        password: "123",
+        firstName: "Ulug'bek",
+        lastName: "Rahmatullayev"
     },
     {
         id: 3,
@@ -24,54 +26,73 @@ let passwords = [
     {
         id: 5,
         username: "sarvar",
-        password: "123"
+        password: "123",
+        firstName: "Sarvar",
+        lastName: "Azamov"
     },
     {
         id: 6,
         username: "ozodbek",
-        password: "123"
+        password: "123",
+        firstName: "Ozodbek",
+        lastName: "Mirjanov"
     },
     {
         id: 7,
         username: "nigora",
-        password: "123"
+        password: "123",
+        firstName: "Nigora",
+        lastName: "Xasanova"
+
     },
     {
         id: 8,
         username: "laylo",
-        password: "123"
+        password: "123",
+        firstName: "Laylo",
+        lastName: "Ismatullayeva"
     },
     {
         id: 9,
         username: "muslima",
-        password: "123"
+        password: "123",
+        firstName: "Muslima",
+        lastName: "Yoqubova"
     },
     {
         id: 10,
         username: "dilnoza",
-        password: "123"
+        password: "123",
+        firstName: "Dilnoza",
+        lastName: "Rahmatullayeva"
     },
     {
         id: 11,
         username: "roziya",
-        password: "123"
+        password: "123",
+        firstName: "Roziya",
+        lastName: "G'ayratillayeva"
     },
     {
         id: 12,
         username: "hamroz",
+        password: "123",
         firstName: "Hamroz",
-        lastName: "Nuriddinov",
-        password: "123"
+        lastName: "Nuriddinov"
     },
     {
         id: 13,
         username: "ibrohim",
-        password: "123"
+        password: "123",
+        firstName: "Shukurullayev",
+        lastName: "Ibrohim"
     },
     {
         id: 14,
         username: "abduvohob",
-        password: "123"
+        password: "123",
+        firstName: "Abduvohob",
+        lastName: "Mirzaahmedov"
     },
     {
         id: 15,
@@ -81,6 +102,15 @@ let passwords = [
     {
         id: 16,
         username: "muhammadali",
-        password: "123"
+        password: "123",
+        firstName: "Muhammadali",
+        lastName: "Rustambekov"
+    },
+    {
+        id:17,
+        username: "jamshid",
+        password: "123",
+        firstName: "Jamshid",
+        lastName: "Akramov"
     }
 ]
