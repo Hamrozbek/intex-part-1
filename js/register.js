@@ -1,6 +1,6 @@
 let elForm = document.querySelector(".register-form")
 
-let passwords = JSON.parse(localStorage.getItem("passwords")) || []
+passwords = JSON.parse(localStorage.getItem("passwords")) || []
 
 elForm.addEventListener("submit", function (e) {
     e.preventDefault()
