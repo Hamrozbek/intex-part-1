@@ -8,8 +8,8 @@ elForm.addEventListener("submit", function (e) {
         id: passwords.length + 1,
         username: e.target.username.value,
         password: e.target.password.value,
-        firstname: e.target.firstName.value,
-        lastname: e.target.lastName.value
+        firstname: e.target.firstname.value,
+        lastname: e.target.lastname.value
     }
 
     passwords.push(data)

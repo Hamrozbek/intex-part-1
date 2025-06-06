@@ -5,7 +5,7 @@ let modalWrapper = document.querySelector(".modal-wrapper");
 let modalInner = document.querySelector(".modal-inner");
 let elCategoryList = document.querySelector(".category-list");
 
-isUser.innerHTML = `${findedUser.firstName} ${findedUser.lastName}`;
+isUser.innerHTML = `${findedUser.firstname} ${findedUser.lastname}`;
 
 // Sign out
 isUser.parentElement.addEventListener("click", () => {
