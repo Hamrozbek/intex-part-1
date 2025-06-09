@@ -16,12 +16,16 @@ let passwords = [
     {
         id: 3,
         username: "shamsiddin",
-        password: "123"
+        password: "123",
+        firstname: "Shamsiddin",
+        lastname: "Boyqulov"
     },
     {
         id: 4,
         username: "mirzo",
-        password: "123"
+        password: "123",
+        firstname: "Mirzohamdam",
+        lastname: "To'lqinov"
     },
     {
         id: 5,
