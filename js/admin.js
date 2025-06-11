@@ -189,7 +189,7 @@ function handleAddBtnClick() {
           elCategoryList.firstElementChild.className = "border-b-[3px] cursor-pointer border-[#009398] text-[#009398] font-bold text-[35px]";
           elCategoryList.lastElementChild.className = "border-b-[3px] border-transparent text-[#A6A6A6] cursor-pointer font-bold text-[35px]";
         } else {
-          elCategoryList.lastElementChild.className = "border-b-[3px] cursor-pointer border-[#009398] font-bold text-[35px]";
+          elCategoryList.lastElementChild.className = "border-b-[3px] cursor-pointer border-[#009398] text-[#009398] font-bold text-[35px]";
           elCategoryList.firstElementChild.className = "border-b-[3px] border-transparent text-[#A6A6A6] cursor-pointer font-bold text-[35px]";
         }
         renderProducts(products, elProductTable, pool.categoryId);
