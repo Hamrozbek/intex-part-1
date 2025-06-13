@@ -98,7 +98,7 @@ function handleOrder(id){
                     <p class="font-normal text-[25px]">Ваш заказ успешно оформлен. Мь свяжемся с вами в ближайшее время.</p>
                 </div>
                 `
-                orders.push(findOrder)
+                orders.push(pool)
                 localStorage.setItem("orders", JSON.stringify(orders))
                 setTimeout(() => {
                     modalWrapper.classList.add("scale-0")
