@@ -1,67 +1,56 @@
 @font-face {
-    font-display: swap;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/league-spartan-v11-latin-regular.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/league-spartan-v11-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-display: swap;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/league-spartan-v11-latin-500.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/league-spartan-v11-latin-500.woff2') format('woff2');
 }
 
 @font-face {
-    font-display: swap;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/league-spartan-v11-latin-600.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/league-spartan-v11-latin-600.woff2') format('woff2');
 }
 
 @font-face {
-    font-display: swap;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2');
+}
+.containers{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 body {
-    overflow-y: hidden;
-    font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+.pool-card{
+  box-shadow: 0px 5px 10px 0px #00000040;
+}
+.login-body {
+  background-image: url("../images/bacround-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.login-body {
-    background-image: url("../images/bacround-img.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
 
 .username-input {
-    box-shadow: 0px 0px 7px 0px #00000004;
-}
-
-.containers{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.containerss{
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
-.pool-card{
-    box-shadow: 0px 5px 10px 0px #00000040;
-}
-.ul-btn{
-    box-shadow: 0px 4px 10px 0px #00000040;
+  box-shadow: 0px 0px 7px 0px #00000040;
 }
