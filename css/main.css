@@ -34,6 +34,11 @@
   margin: 0 auto;
 }
 
+.containerss{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "League Spartan", sans-serif;
 }
